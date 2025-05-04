@@ -30,10 +30,11 @@ import java.util.concurrent.Executors;
 
 @Plugin(
         id = "librelogin",
-        name = "LibreLogin",
+        name = "DRLibreLogin",
         version = "@version@",
         authors = "kyngs",
         dependencies = {
+                @Dependency(id = "glider", optional = true),
                 @Dependency(id = "floodgate", optional = true),
                 @Dependency(id = "luckperms", optional = true),
                 @Dependency(id = "protocolize", optional = true),
